@@ -2,7 +2,12 @@ Atividade avaliativa 2 — Web + Mobile (Alunos)
 Descrição
 link do deploy no vercel: https://crud-steel-ten.vercel.app/
 Aplicação de exemplo dividida em Web (React + Vite) e Mobile (Expo + React Native) que consome uma API REST de alunos ([https://proweb.leoproti.com.br/alunos](https://proweb.leoproti.com.br/swagger-ui/index.html)).
-Funcionalidades: listar alunos, visualizar detalhes, adicionar, editar e excluir alunos. A versão web possui testes automatizados com Vitest e React Testing Library.
+Funcionalidades: 
+.Listar alunos 
+.Visualizar detalhes
+.Adicionar
+.Editar
+.Excluir
 
 Endpoints esperados (padrão REST):
 GET /alunos — lista
@@ -69,6 +74,5 @@ Tela Home — lista e botão para novo
 Tela Details — detalhes do aluno, editar/excluir/voltar
 Tela Form — adicionar / editar
 
-Créditos
 Projeto criado como atividade avaliativa — base: programação web
 API pública fornecida por: [proweb.leoproti.com.br](https://proweb.leoproti.com.br/swagger-ui/index.html)
