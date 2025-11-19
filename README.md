@@ -1,34 +1,30 @@
-Atividade avaliativa 2 — Web + Mobile (Alunos)
-Descrição
-link do deploy no vercel: https://crud-steel-ten.vercel.app/
-Aplicação de exemplo dividida em Web (React + Vite) e Mobile (Expo + React Native) que consome uma API REST de alunos ([https://proweb.leoproti.com.br/alunos](https://proweb.leoproti.com.br/swagger-ui/index.html)).
-Funcionalidades: 
-.Listar alunos 
-.Visualizar detalhes
-.Adicionar
-.Editar
-.Excluir
+Atividade Avaliativa 2 — Web + Mobile (CRUD de Alunos)
 
-Endpoints esperados (padrão REST):
-GET /alunos — lista
-GET /alunos/:id — detalhar
-POST /alunos — criar
-PUT /alunos/:id — atualizar
-DELETE /alunos/:id — excluir
+Aplicação completa dividida em Web (React + Vite) e Mobile (Expo + React Native), consumindo a API pública de alunos:
+https://proweb.leoproti.com.br/alunos
 
-Web (React + Vite)
+A solução implementa todo o CRUD: listar, visualizar detalhes, adicionar, editar e excluir alunos.
 
+| Método | Endpoint      | Descrição             |
+| ------ | ------------- | --------------------- |
+| GET    | `/alunos`     | Lista todos os alunos |
+| GET    | `/alunos/:id` | Detalhes de um aluno  |
+| POST   | `/alunos`     | Cria um aluno         |
+| PUT    | `/alunos/:id` | Atualiza um aluno     |
+| DELETE | `/alunos/:id` | Remove um aluno       |
+
+Projeto Web (React + Vite)
 Tecnologias
 React
 Vite
 React Router DOM
 Axios
-React Bootstrap (UI)
+React Bootstrap
 Vitest + React Testing Library
+
 
 Como executar
 Abra um terminal na pasta web.
-
 Instale dependências:
 npm install
 Rodar em desenvolvimento:
